@@ -11,7 +11,7 @@ function Page(data, edit) {
               data.deleteFn(x.id);
             }}
           >
-            Delete
+            Deletenp
           </button>
           <button
             onClick={() => {

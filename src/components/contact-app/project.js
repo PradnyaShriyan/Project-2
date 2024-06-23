@@ -11,6 +11,7 @@ const Login = () => {
     if (parseInt(age) < 18) {
       alert("Age is minor.Cannot submit");
     } else {
+      
       if (edit) {
         const temp = structuredClone(data);
         const editIndex = temp.findIndex((t) => t.id === edit.id);
